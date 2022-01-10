@@ -98,3 +98,62 @@ form h1 {
     cursor: pointer;
 }
 /* end contact */
+
+/* begin footer */
+.contact-footer div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 100%;
+    grid-template-areas: 
+        "copyright social-media";
+    background-color: #252525;
+    height: 125px;
+    text-align: center;
+}
+
+.contact-footer div p {
+    grid-area: copyright;
+    color: white;
+    margin-top: 50px;
+
+}
+
+.contact-footer div ul li {
+    grid-area: social-media;
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+#twitter img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid 2px white;
+    background-color: white;
+}
+
+#facebook img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid 2px white;
+    background-color: white;
+}
+
+#googleplus img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid 2px white;
+    background-color: white;
+}
+
+#pinterest img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid 2px white;
+    background-color: white;
+}
+/* end footer */
