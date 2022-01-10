@@ -8,6 +8,49 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <header>
+        <div id="logo">logo-goes-here</div>
+        
+        <nav class="nav-bar">
+            <a href="index.html" style="text-decoration:none;">HOME</a>
+            <a href="about.html" style="text-decoration:none;">ABOUT</a>
+            <a href="gallery.html" style="text-decoration:none;">GALLERY</a>
+            <a id="current-page" href="contact.html" style="text-decoration:none;">CONTACT</a>
+        </nav>
+    </header>
     
+    <main class="form">
+        
+        <form >
+            <h1 >let's keep in touch</h1>
+
+            <label>
+                <input id="name" type="text" name="name" placeholder="NAME" />
+            </label>
+
+            <label>
+                <input id="address" type="address" name="address" placeholder="ADDRESS" required/>
+            </label>
+            
+            <label>
+                <input id="email" type="email" name="email" placeholder="EMAIL" required/>
+            </label>
+            
+            <label>
+                <input id="phone-number" type="phone-number" name="phone-number" placeholder="PHONE NUMBER" required/>
+            </label>
+
+            <label>
+                <input id="message" name="message" placeholder="MESSAGE"></input>
+            </label> 
+    
+             <label>
+                <span>&nbsp;</span> 
+                <input type="submit" id="send-contact" value="Send" /> 
+            </label>
+            
+        </form>
+
+    </main>
 </body>
 </html>

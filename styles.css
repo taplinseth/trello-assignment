@@ -1,0 +1,48 @@
+/* remove auto margin from all pages*/
+body {
+    margin: 0px;
+}
+
+
+
+/* begin header */
+header{
+    height: 200px;
+    background-color: rgb(201, 201, 201)
+}
+
+header #logo {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 125px;
+    width: 125px;
+    border: 1px solid black;
+}
+
+header .nav-bar {
+    text-align: center;
+    font-size: 100%;
+    word-spacing: 40px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-bottom: 2px;
+    list-style-type: none;
+}
+
+header .nav-bar a {
+    color: black;
+}
+#current-page {
+    color: rgb(151, 151, 151);
+}
+
+header nav a:hover {
+    transition: .4s ease-in-out;
+    font-size: 35px;
+    color: rgb(151, 151, 151);
+}
+
+/* end header */
