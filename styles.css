@@ -118,42 +118,4 @@ form h1 {
 
 }
 
-.contact-footer div ul li {
-    grid-area: social-media;
-    display: inline-flex;
-    list-style-type: none;
-    margin-top: 15px;
-}
-
-#twitter img {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: solid 2px white;
-    background-color: white;
-}
-
-#facebook img {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: solid 2px white;
-    background-color: white;
-}
-
-#googleplus img {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: solid 2px white;
-    background-color: white;
-}
-
-#pinterest img {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: solid 2px white;
-    background-color: white;
-}
 /* end footer */
